@@ -1,0 +1,25 @@
+2026-08-17 23:22:00,277 INFO Best-of-3 from 3 runs, 452 common examples
+2026-08-17 23:22:00,277 INFO   run 145045 APR=0.3805
+2026-08-17 23:22:00,277 INFO   run 150548 APR=0.3739
+2026-08-17 23:22:00,277 INFO   run 152216 APR=0.3628
+2026-08-17 23:22:00,277 INFO Baseline (best single): 145045 APR=0.3805
+2026-08-17 23:22:01,599 INFO 
+2026-08-17 23:22:01,599 INFO ==============================================================
+2026-08-17 23:22:01,599 INFO   BEST-OF-3 RESULTS (selection by example pass / APR)
+2026-08-17 23:22:01,600 INFO ==============================================================
+2026-08-17 23:22:01,600 INFO   Examples: 452
+2026-08-17 23:22:01,600 INFO   run 145045   APR=0.3805
+2026-08-17 23:22:01,600 INFO   run 150548   APR=0.3739
+2026-08-17 23:22:01,600 INFO   run 152216   APR=0.3628
+2026-08-17 23:22:01,600 INFO   baseline (145045)     APR=0.3805
+2026-08-17 23:22:01,600 INFO   random expected   APR=0.3724
+2026-08-17 23:22:01,600 INFO   best-of-3         APR=0.5288  gain=+0.1482
+2026-08-17 23:22:01,600 INFO   oracle (any pass) APR=0.5288
+2026-08-17 23:22:01,600 INFO 
+2026-08-17 23:22:01,600 INFO   gained (baseline fail -> best-of-N pass): 67
+2026-08-17 23:22:01,600 INFO   lost   (baseline pass -> best-of-N fail): 0
+2026-08-17 23:22:01,600 INFO   both pass: 172 | baseline only: 0 | both fail: 213
+2026-08-17 23:22:01,600 INFO 
+2026-08-17 23:22:01,600 INFO   Picked run counts: {'152216': 336, '150548': 76, '145045': 40}
+2026-08-17 23:22:01,601 INFO   Output: /home/speech-nlp-cse/24m0756/abhishek/audiomc/runs/eval/allqwen/best_of_ids/145045_150548_152216
+2026-08-17 23:22:01,601 INFO ==============================================================

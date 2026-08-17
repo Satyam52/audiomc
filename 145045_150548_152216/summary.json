@@ -1,0 +1,65 @@
+{
+  "n": 452,
+  "n_runs": 3,
+  "run_labels": [
+    "145045",
+    "150548",
+    "152216"
+  ],
+  "run_dirs": [
+    "/home/speech-nlp-cse/24m0756/abhishek/audiomc/runs/eval/allqwen/20260814_145045_local_Qwen3-Omni-30B-A3B-Thinking",
+    "/home/speech-nlp-cse/24m0756/abhishek/audiomc/runs/eval/allqwen/20260814_150548_local_Qwen3-Omni-30B-A3B-Thinking",
+    "/home/speech-nlp-cse/24m0756/abhishek/audiomc/runs/eval/allqwen/20260814_152216_local_Qwen3-Omni-30B-A3B-Thinking"
+  ],
+  "apr_by_run": {
+    "145045": 0.380531,
+    "150548": 0.373894,
+    "152216": 0.362832
+  },
+  "baseline_run": "145045",
+  "baseline_apr": 0.380531,
+  "baseline_ars": 0.602705,
+  "best_of_n_apr": 0.528761,
+  "best_of_n_ars": 0.725543,
+  "random_expected_apr": 0.372419,
+  "oracle_apr": 0.528761,
+  "gain_vs_baseline": 0.14823,
+  "gained_pass": 67,
+  "lost_pass": 0,
+  "both_pass": 172,
+  "baseline_only_pass": 0,
+  "both_fail": 213,
+  "picked_run_counts": {
+    "152216": 336,
+    "150548": 76,
+    "145045": 40
+  },
+  "by_axis": {
+    "INFERENCE_MEMORY": {
+      "n": 132,
+      "baseline_apr": 0.416667,
+      "best_of_n_apr": 0.515152,
+      "oracle_apr": 0.515152
+    },
+    "INSTRUCTION_RETENTION": {
+      "n": 120,
+      "baseline_apr": 0.408333,
+      "best_of_n_apr": 0.616667,
+      "oracle_apr": 0.616667
+    },
+    "SELF_COHERENCE": {
+      "n": 83,
+      "baseline_apr": 0.361446,
+      "best_of_n_apr": 0.518072,
+      "oracle_apr": 0.518072
+    },
+    "VOICE_EDITING": {
+      "n": 117,
+      "baseline_apr": 0.324786,
+      "best_of_n_apr": 0.461538,
+      "oracle_apr": 0.461538
+    }
+  },
+  "created_at": "2026-08-17T17:52:00.292375+00:00",
+  "run_at": "20260817_175200"
+}
